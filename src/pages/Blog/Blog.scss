@@ -1,0 +1,22 @@
+.blog {
+ height: 100%;
+ text-align: center;
+
+ .img-blog{
+   width: 45%;
+   height: auto;
+ }
+
+ .blog-title {
+   font-size: 2rem;
+   padding: 3rem;
+ }
+  .blog-news-info {
+    background-color: aqua;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}

@@ -1,0 +1,39 @@
+.Modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  background-color: white;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  padding: 2rem;
+  text-align: justify;
+
+  .closeButtonModal {
+    width: 6rem;
+    display: flex;
+    align-self: center;
+    margin: 1rem;
+  }
+}
+
+.Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba($color: #000000, $alpha: 0.5);
+}
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px){
+   .Modal{
+     height: auto;
+     width: 80%;
+   }
+}

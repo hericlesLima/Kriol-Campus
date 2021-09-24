@@ -1,0 +1,137 @@
+.curso-details-container {
+  height: 100%;
+  width: 100%;
+
+  .lottie-container-2 {
+    height: auto;
+    width: 34%;
+  }
+
+  .course-description-content {
+    width: 66%;
+    margin: 0 auto;
+    margin-top: 2rem;
+
+    h1 {
+      text-align: center;
+      padding: 1rem;
+    }
+  }
+
+  .image-content {
+    width: 60%;
+    height: 60%;
+    margin-top: 10%;
+  }
+
+  .curso-details-content {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-sizing: border-box;
+    gap: 3rem;
+    padding: 3.5rem;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-device-width: 480px) {
+  .curso-details-container {
+    .lottie-container-2 {
+      height: auto;
+      width: 80%;
+    }
+
+    .course-description-content {
+      h1 {
+        text-align: center;
+        padding: 1rem;
+      }
+
+      p {
+        text-align: justify;
+      }
+    }
+
+    .curso-details-content {
+      padding: 3rem 0;
+      .curso-tab {
+        width: 85%;
+
+        .tab-header {
+          .tab-header-sign {
+            a {
+              padding: 0.5rem 2rem;
+            }
+          }
+        }
+      }
+      F .tab-header {
+        .tab-header-sign {
+          top: 98%;
+          position: absolute;
+          display: flex;
+          justify-content: center;
+        }
+      }
+
+      .tab-body {
+        flex-direction: column;
+
+        .content-desc,
+        .content-details {
+          width: 100%;
+        }
+        .content-desc {
+          margin-bottom: 2rem;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 780px) {
+  /* Styles */
+
+  .curso-details-container {
+    .lottie-container-2 {
+      height: auto;
+      width: 70%;
+    }
+
+    .course-description-content {
+      width: 80%;
+      margin: 0 auto;
+
+      h1 {
+        text-align: center;
+        padding: 1rem;
+      }
+      p {
+        text-align: justify;
+      }
+    }
+
+    .curso-details-content {
+      padding: 3rem 0;
+      width: 90%;
+
+      .curso-tab {
+        width: 85%;
+      }
+
+      .tab-body {
+        flex-direction: column;
+
+        .content-desc,
+        .content-details {
+          width: 100%;
+        }
+        .content-desc {
+          margin-bottom: 2rem;
+        }
+      }
+    }
+  }
+}

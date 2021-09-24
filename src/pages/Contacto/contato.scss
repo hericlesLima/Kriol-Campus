@@ -1,0 +1,178 @@
+.contact-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  
+  .contact-content {
+    height: 100vh;
+    width: 100%;
+    background-color: #fe6f51;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact-box {
+    background-color: white;
+    width: 70%;
+    margin: auto;
+    margin-top: 15%;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    padding: 70px 10%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-content {
+    width: 100%;
+    margin-top: 85%;
+  }
+
+  .content-title {
+    text-align: center;
+    margin-bottom: 2rem;
+
+    .content-title-title {
+      font-size: 1.5rem;
+    }
+  }
+
+  .content-image-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: auto;
+    margin: 1rem;
+  }
+
+  .hubspot-and-contact {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+    .icons-content {
+      display: flex;
+      height: 80%;
+      width: 50%;
+    }
+  }
+  .contact-image {
+    max-width: 150px;
+  }
+
+  .box {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+
+    p {
+      font-weight: 500;
+    }
+
+    .icon {
+      display: flex;
+      align-items: center;
+    }
+  }
+  .ct-ico {
+    padding: 20px;
+    font-size: 1.5rem;
+    color: #4d4d4d;
+  }
+
+  .map-container {
+    width: 100%;
+  }
+
+  .leaflet-container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+    height: 400px;
+  }
+}
+
+@media only screen and (max-device-width: 480px) {
+  .contact-container {
+    gap: 1rem;
+    
+    .box {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+
+      p {
+        font-weight: 500;
+      }
+
+      .icon {
+        display: flex;
+        align-items: center;
+      }
+
+    }
+
+    .contact-box {
+      margin-top: 10rem;
+      width: 90%;
+      padding: 3rem 1rem;
+
+      .hubspot-and-contact {
+        flex-direction: column;
+        align-items: center;
+
+      
+        .icons-content {
+          width: 100%;
+        }
+      }
+    }
+    .footer-content {
+      margin-top: 63rem;
+    }
+
+    .leaflet-container {
+      width: 100%;
+      height: 400px;
+      z-index: 0;
+    }
+  }
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) {
+  .contact-container {
+   
+    .contact-box {
+      margin-top: 15rem;
+      width: 85%;
+      padding: 3rem 2rem;
+
+      .hubspot-and-contact {
+        flex-direction: column;
+        align-items: center;
+      
+
+        .hubspot-content {
+         
+          align-self: flex-start;
+        }
+        .icons-content {
+          width: 100%;
+        }
+      }
+
+    }
+    .footer-content {
+      margin-top: 120%;
+    }
+    .leaflet-container {
+      width: 100%;
+      height: 400px;
+    }
+  }
+}

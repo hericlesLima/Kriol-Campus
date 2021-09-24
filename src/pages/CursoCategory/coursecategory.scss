@@ -1,0 +1,237 @@
+.course-category-container {
+  height: 100%;
+  width: 100%;
+
+  .curso-tab-content {
+    margin: 4rem 0;
+
+    .curso-tab {
+      width: 60%;
+      box-sizing: border-box;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      border-radius: 20px;
+      margin: 0 auto;
+
+      .tab-header {
+        background-color: #fe6f51;
+        padding: 1px;
+        box-sizing: border-box;
+        border-radius: 20px 20px 0 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .tab-header-btn {
+          background-color: #fe6f51;
+          padding: 1px;
+          box-sizing: border-box;
+          border-radius: 20px 20px 0 0;
+          display: flex;
+
+          .btn-header {
+            padding: 1rem;
+            color: white;
+            font-weight: 700;
+          }
+          .btn-header:hover {
+            cursor: pointer;
+            color: #f2f2f2;
+            font-weight: 700;
+            background-color: #c54b32;
+          }
+          .btn-1:hover {
+            border-radius: 20px 0 0 0;
+          }
+        }
+
+        .tab-header-sign {
+          a {
+            background-color: #f2f2f2;
+            color: #fe6f51;
+            padding: 0.5rem 2rem;
+            margin-right: 2rem;
+            font-weight: 600;
+            border-radius: 20px;
+            text-decoration: none;
+          }
+
+          a:hover {
+            background-color: #ffffff;
+          }
+        }
+      }
+
+      .tab-body {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        box-sizing: border-box;
+        padding: 30px 50px;
+      }
+    }
+
+    .content-titles {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px;
+      width: 80%;
+      margin: 0 auto;
+    }
+
+    .content-details {
+      width: 40%;
+
+      td {
+        button {
+           border: 2px solid #4d4d4d;
+           background-color: #fff;
+           padding: 0.5rem;
+           border-radius: 5px;
+           cursor: pointer;
+           font-weight: bold;
+        }
+      }
+    }
+    .content-desc {
+      width: 50%;
+      box-sizing: border-box;
+    }
+
+    .titles {
+      padding: 10px 0;
+    }
+
+    .price-row {
+      font-size: 2rem;
+      font-weight: bold;
+    }
+    .awesome-icon {
+      text-align: center;
+
+      .ico {
+        color: #fe6f51;
+        font-size: 1rem;
+        padding: 10px;
+        text-align: center;
+      }
+    }
+
+    .desc-name {
+      font-weight: bold;
+      font-size: 1rem;
+      padding-right: 20px;
+    }
+
+    .content-content {
+      padding: 2rem 1rem;
+      height: 100%;
+      width: 100%;
+    }
+  }
+}
+
+@media only screen and (max-device-width: 480px) {
+  /* Styles */
+
+  .course-category-container {
+    .curso-tab-content {
+      padding: 3rem 0;
+      width: 100%;
+
+      .curso-tab {
+        width: 85%;
+
+        .tab-header {
+          .tab-header-btn {
+            display: flex;
+
+            width: 50%;
+
+            .btn-header {
+              padding: 1rem 0.5rem;
+              font-size: 15px;
+            }
+          }
+
+          .tab-header-sign {
+            a {
+              padding: 0.5rem;
+              margin-right: 5px;
+              font-size: 15px;
+            }
+
+            a:hover {
+              background-color: #ffffff;
+            }
+          }
+        }
+        .tab-body {
+          flex-direction: column;
+          width: 90%;
+          margin: 0px;
+          padding: 1.5rem;
+  
+          .content-desc,
+          .content-details {
+            width: 100%;
+          }
+          .content-desc {
+            margin-bottom: 2rem;
+          }
+        }
+      }
+
+    }
+  }
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 768px) {
+  .course-category-container {
+    .curso-tab-content {
+      padding: 3rem 0;
+      width: 100%;
+
+      .curso-tab {
+        width: 85%;
+
+        .tab-header {
+          .tab-header-btn {
+            width: 50%;
+
+            .btn-header {
+              padding: 1rem 0.5rem;
+              font-size: 15px;
+              font-weight: 700;
+            }
+          }
+
+          .tab-header-sign {
+            a {
+              padding: 0.5rem;
+              margin-right: 5px;
+              font-size: 15px;
+              font-weight: 800;
+            }
+
+            a:hover {
+              background-color: #ffffff;
+            }
+          }
+        }
+        .tab-body {
+          flex-direction: column;
+          width: 100%;
+          padding: 1.5rem;
+
+          .content-desc,
+          .content-details {
+            width: 100%;
+          }
+          .content-desc {
+            margin-bottom: 2rem;
+          }
+        }
+      }
+    }
+  }
+}

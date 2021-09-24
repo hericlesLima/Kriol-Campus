@@ -1,0 +1,14 @@
+.main-view {
+  height: 100%;
+  width: 100%;
+  background-color: #fe6f51;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  clip-path: polygon(0 0, 100% 0, 100% 91%, 78% 100%, 0 91%);
+}
+
+img.separator {
+  background-color: #f2f2f2;
+  align-self: flex-end;
+}

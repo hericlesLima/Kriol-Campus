@@ -1,0 +1,857 @@
+.box-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.box-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.box-center {
+  align-items: center;
+  justify-content: center;
+}
+
+.methodologies-containers {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  background-color: #f2f2f2;
+
+  .openModalButton {
+    background-color: transparent;
+    font-family: "Lato";
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+  }
+
+  .openModalButton:hover {
+    text-decoration: none;
+    color: #4d4d4d;
+  
+  }
+
+  .methodologies-header {
+    width: 100%;
+    .methodologies-header-title {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 31rem;
+      background: #f2f2f2;
+
+      .methodologies-title {
+        border-bottom: solif 6px #fe6f51;
+        border-radius: 5%;
+      }
+    }
+  }
+
+  .container-1 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 45%;
+    background-color: #fe6f51;
+
+    .container-1-text {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 80%;
+      background-color: #4d4d4d;
+
+      .game-learning {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 40%;
+        height: 50%;
+        background-color: #4d4d4d;
+      }
+    }
+
+    .container-1-image {
+      width: 0;
+      height: 117%;
+      position: relative;
+      right: 7.5rem;
+      top: -3.6rem;
+
+      .kid-1 {
+        width: auto;
+        height: 110%;
+      }
+    }
+
+    .container-1-no-content {
+      width: 20%;
+      height: 100%;
+      background-color: #fe6f51;
+    }
+  }
+
+  .container-2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 45%;
+
+    .container-2-no-content {
+      width: 20%;
+      height: 100%;
+      background-color: #4d4d4d;
+    }
+
+    .container-2-image {
+      width: 0;
+      height: 110%;
+      position: relative;
+      right: 10rem;
+      top: -1.9rem;
+
+      .kid-2 {
+        width: auto;
+        height: 100%;
+      }
+    }
+
+    .container-2-text {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 80%;
+      height: 100%;
+      background-color: #fe6f51;
+
+      .gamification {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 40%;
+        height: 50%;
+        background-color: #fe6f51;
+      }
+    }
+  }
+
+  .container-3 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 45%;
+
+    .container-3-text {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 80%;
+      background-color: #4d4d4d;
+
+      .softwares {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 40%;
+        height: 50%;
+        background-color: #4d4d4d;
+      }
+    }
+
+    .container-3-image {
+      width: 0;
+      height: 110%;
+      position: relative;
+      right: 11rem;
+      top: -4.1rem;
+
+      .kid-3 {
+        width: auto;
+        height: 120%;
+      }
+    }
+
+    .container-3-no-content {
+      width: 20%;
+      height: 100%;
+      background-color: #fe6f51;
+    }
+  }
+
+  .container-4 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50%;
+
+    .container-4-no-content {
+      width: 20%;
+      height: 100%;
+      background-color: #4d4d4d;
+    }
+
+    .container-4-image {
+      width: 0;
+      height: 110%;
+      position: relative;
+      right: 11rem;
+      top: -7.1rem;
+
+      .kid-4 {
+        width: auto;
+        height: 140%;
+      }
+    }
+
+    .container-4-text {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 80%;
+      height: 100%;
+      background-color: #fe6f51;
+
+      .empreendedorismo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 40%;
+        height: 50%;
+        background-color: #fe6f51;
+      }
+    }
+  }
+
+  .footer {
+    margin-top: 15rem;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .methodologies-containers {
+    height: 100%;
+    width: 100%;
+    background-color: #fe6f51;
+
+    .container-1 {
+      flex-direction: column;
+      height: 80%;
+
+      .container-1-text {
+        order: 3;
+        width: 80%;
+        padding: 3%;
+        border: solid 2px #fe6f51;
+        position: relative;
+        right: -1.6rem;
+        top: 10.5rem;
+
+        .game-learning {
+          width: 100%;
+          text-align: justify;
+
+          .game-learning-title {
+            margin-top: 0.8rem;
+            font-size: 1.5rem;
+            align-self: center;
+          }
+        }
+      }
+
+      .container-1-image {
+        order: 2;
+        width: 80%;
+        height: 50%;
+        position: relative;
+        left: 2.5rem;
+        top: 10rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .kid-1 {
+          width: 35%;
+          height: auto;
+          align-self: center;
+        }
+      }
+
+      .container-1-no-content {
+        order: 1;
+      }
+    }
+
+    .container-2 {
+      flex-direction: column;
+      height: 80%;
+      background-color: #4d4d4d;
+
+      .container-2-text {
+        order: 3;
+        width: 80%;
+        padding: 3%;
+        border: solid 2px #4d4d4d;
+        position: relative;
+        right: -1.6rem;
+        top: 8rem;
+
+        .gamification {
+          width: 100%;
+
+          text-align: justify;
+          display: flex;
+          justify-content: center;
+
+          .gamification-title {
+            margin-top: 0.8rem;
+            font-size: 1.5rem;
+            align-self: center;
+          }
+        }
+      }
+
+      .container-2-image {
+        order: 2;
+        width: 80%;
+        height: 50%;
+        position: relative;
+        left: 2.4rem;
+        top: 7.9rem;
+        margin-top: 10rem;
+        display: flex;
+        justify-content: center;
+
+        .kid-2 {
+          width: 40%;
+          height: auto;
+          align-self: center;
+        }
+      }
+
+      .container-2-no-content {
+        order: 1;
+        width: 100%;
+        height: 100%;
+        background-color: #4d4d4d;
+      }
+    }
+
+    .container-3 {
+      flex-direction: column;
+      background-color: #fe6f51;
+      height: 90%;
+
+      .container-3-text {
+        order: 3;
+        width: 80%;
+        padding: 3%;
+        border: solid 2px #fe6f51;
+        position: relative;
+        right: -1.6rem;
+        top: -2.8rem;
+        background-color: #4d4d4d;
+
+        .softwares {
+          width: 100%;
+
+          text-align: justify;
+          display: flex;
+          justify-content: center;
+
+          .softwares-title {
+            margin-top: 0.8rem;
+            font-size: 1.5rem;
+            align-self: center;
+            text-align: center;
+          }
+        }
+      }
+
+      .container-3-image {
+        order: 2;
+        width: 80%;
+        height: 50%;
+        position: relative;
+        top: -3rem;
+        left: 2.2rem;
+        margin-top: 20rem;
+        display: flex;
+        justify-content: center;
+
+        .kid-3 {
+          width: 40%;
+          height: auto;
+          align-self: center;
+        }
+      }
+
+      .container-3-no-content {
+        order: 1;
+      }
+    }
+
+    .container-4 {
+      flex-direction: column;
+      height: 90%;
+      background-color: #4d4d4d;
+
+      .container-4-text {
+        order: 3;
+        width: 80%;
+        padding: 3%;
+        border: solid 2px #4d4d4d;
+        position: relative;
+        right: -1.7rem;
+        top: 2rem;
+
+        .empreendedorismo {
+          width: 100%;
+          text-align: justify;
+
+          .empreendedorismo-title {
+            margin-top: 0.8rem;
+            font-size: 1.5rem;
+            align-self: center;
+          }
+        }
+      }
+
+      .container-4-image {
+        order: 2;
+        width: 80%;
+        height: 50%;
+        position: relative;
+        left: 2.5rem;
+        top: 6.3rem;
+        margin-top: 7.5rem;
+        display: flex;
+        justify-content: center;
+
+        .kid-4 {
+          width: auto;
+          height: 60%;
+          align-self: center;
+        }
+      }
+
+      .container-4-no-content {
+        order: 1;
+        width: 100%;
+        height: 100%;
+        background-color: #4d4d4d;
+      }
+    }
+  }
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 768px) {
+  .methodologies-containers {
+    height: 100%;
+    width: 100%;
+    background-color: #fe6f51;
+
+    .container-1 {
+      flex-direction: column;
+      height: 80%;
+
+      .container-1-text {
+        order: 3;
+        width: 80%;
+        padding: 3%;
+        border: solid 2px #fe6f51;
+        position: relative;
+        right: -3rem;
+        top: 7rem;
+
+        .game-learning {
+          width: 100%;
+          text-align: justify;
+
+          .game-learning-title {
+            margin-top: 0.8rem;
+            font-size: 1.5rem;
+            align-self: center;
+          }
+        }
+      }
+
+      .container-1-image {
+        order: 2;
+        width: 80%;
+        height: 50%;
+        position: relative;
+        right: -17.2rem;
+        top: 9.6rem;
+
+        .kid-1 {
+          width: auto;
+          height: 80%;
+        }
+      }
+
+      .container-1-no-content {
+        order: 1;
+      }
+    }
+
+    .container-2 {
+      flex-direction: column;
+      height: 80%;
+      background-color: #4d4d4d;
+
+      .container-2-text {
+        order: 3;
+        width: 80%;
+        padding: 3%;
+        border: solid 2px #4d4d4d;
+        position: relative;
+        right: -3rem;
+        top: 2rem;
+
+        .gamification {
+          width: 100%;
+
+          text-align: justify;
+
+          .gamification-title {
+            margin-top: 0.8rem;
+            font-size: 1.5rem;
+            align-self: center;
+          }
+        }
+      }
+
+      .container-2-image {
+        order: 2;
+        width: 100%;
+        height: 50%;
+        position: relative;
+        right: -15.4rem;
+        top: 2.2rem;
+        margin-top: 10rem;
+
+        .kid-2 {
+          width: 27%;
+          height: auto;
+        }
+      }
+
+      .container-2-no-content {
+        order: 1;
+        width: 100%;
+        height: 100%;
+        background-color: #4d4d4d;
+      }
+    }
+
+    .container-3 {
+      flex-direction: column;
+      background-color: #fe6f51;
+      height: 90%;
+
+      .container-3-text {
+        order: 3;
+        width: 80%;
+        padding: 3%;
+        border: solid 2px #fe6f51;
+        position: relative;
+        right: -1.7rem;
+        top: -1.5rem;
+        background-color: #4d4d4d;
+
+        .softwares {
+          width: 100%;
+
+          text-align: justify;
+
+          .softwares-title {
+            margin-top: 0.8rem;
+            font-size: 1.5rem;
+            align-self: center;
+            text-align: center;
+          }
+        }
+      }
+
+      .container-3-image {
+        order: 2;
+        width: 100%;
+        height: 50%;
+        position: relative;
+        top: -1.4rem;
+        right: -16.3rem;
+        margin-top: 20rem;
+
+        .kid-3 {
+          width: 25%;
+          height: auto;
+        }
+      }
+
+      .container-3-no-content {
+        order: 1;
+      }
+    }
+
+    .container-4 {
+      flex-direction: column;
+      height: 90%;
+      background-color: #4d4d4d;
+
+      .container-4-text {
+        order: 3;
+        width: 80%;
+        padding: 3%;
+        border: solid 2px #4d4d4d;
+        position: relative;
+        right: -1.7rem;
+        top: 6rem;
+
+        .empreendedorismo {
+          width: 100%;
+          text-align: justify;
+
+          .empreendedorismo-title {
+            margin-top: 0.8rem;
+            font-size: 1.5rem;
+            align-self: center;
+          }
+        }
+      }
+
+      .container-4-image {
+        order: 2;
+        width: 100%;
+        height: 50%;
+        position: relative;
+        right: -11rem;
+        top: 15rem;
+        margin-top: 7.5rem;
+
+        .kid-4 {
+          width: auto;
+          height: 60%;
+        }
+      }
+
+      .container-4-no-content {
+        order: 1;
+        width: 100%;
+        height: 100%;
+        background-color: #4d4d4d;
+      }
+    }
+  }
+}
+
+@media only screen and (min-device-width: 769px) and (max-device-width: 1024px) {
+  .methodologies-containers {
+    height: 100%;
+    width: 100%;
+    background-color: #fe6f51;
+
+    .container-1 {
+      flex-direction: column;
+      height: 200%;
+
+      .container-1-text {
+        order: 3;
+        width: 50%;
+        padding: 3%;
+        border: solid 2px #fe6f51;
+        position: relative;
+        right: -9.5rem;
+        top: 7.3rem;
+
+        .game-learning {
+          width: 100%;
+          text-align: justify;
+
+          .game-learning-title {
+            margin-top: 0.8rem;
+            font-size: 1.5rem;
+            align-self: center;
+          }
+        }
+      }
+
+      .container-1-image {
+        order: 2;
+        width: 100%;
+        height: 50%;
+        position: relative;
+        right: -19rem;
+        top: 9.6rem;
+
+        .kid-1 {
+          width: auto;
+          height: 80%;
+        }
+      }
+
+      .container-1-no-content {
+        order: 1;
+      }
+    }
+
+    .container-2 {
+      flex-direction: column;
+      height: 200%;
+      background-color: #4d4d4d;
+
+      .container-2-text {
+        order: 3;
+        width: 50%;
+        padding: 3%;
+        border: solid 2px #4d4d4d;
+        position: relative;
+        right: -9.5rem;
+        top: 7rem;
+
+        .gamification {
+          width: 100%;
+
+          text-align: justify;
+
+          .gamification-title {
+            margin-top: 0.8rem;
+            font-size: 1.5rem;
+            align-self: center;
+          }
+        }
+      }
+
+      .container-2-image {
+        order: 2;
+        width: 100%;
+        height: 50%;
+        position: relative;
+        right: -18rem;
+        top: 7rem;
+        margin-top: 10rem;
+
+        .kid-2 {
+          width: 20%;
+          height: auto;
+        }
+      }
+
+      .container-2-no-content {
+        order: 1;
+        width: 100%;
+        height: 100%;
+        background-color: #4d4d4d;
+      }
+    }
+
+    .container-3 {
+      flex-direction: column;
+      background-color: #fe6f51;
+      height: 200%;
+
+      .container-3-text {
+        order: 3;
+        width: 50%;
+        padding: 3%;
+        border: solid 2px #fe6f51;
+        position: relative;
+        right: -9.5rem;
+        top: -4.5rem;
+        background-color: #4d4d4d;
+
+        .softwares {
+          width: 100%;
+
+          text-align: justify;
+
+          .softwares-title {
+            margin-top: 0.8rem;
+            font-size: 1.5rem;
+            align-self: center;
+            text-align: center;
+          }
+        }
+      }
+
+      .container-3-image {
+        order: 2;
+        width: 100%;
+        height: 50%;
+        position: relative;
+        top: -4.4rem;
+        right: -18rem;
+        margin-top: 20rem;
+
+        .kid-3 {
+          width: 20%;
+          height: auto;
+        }
+      }
+
+      .container-3-no-content {
+        order: 1;
+      }
+    }
+
+    .container-4 {
+      flex-direction: column;
+      height: 200%;
+      background-color: #4d4d4d;
+
+      .container-4-text {
+        order: 3;
+        width: 50%;
+        padding: 3%;
+        border: solid 2px #4d4d4d;
+        position: relative;
+        right: -9.5rem;
+        top: 6rem;
+
+        .empreendedorismo {
+          width: 100%;
+          text-align: justify;
+
+          .empreendedorismo-title {
+            margin-top: 0.8rem;
+            font-size: 1.5rem;
+            align-self: center;
+          }
+        }
+      }
+
+      .container-4-image {
+        order: 2;
+        width: 100%;
+        height: 50%;
+        position: relative;
+        right: -17rem;
+        top: 6.5rem;
+        margin-top: 7.5rem;
+
+        .kid-4 {
+          width: 35%;
+          height: auto;
+        }
+      }
+
+      .container-4-no-content {
+        order: 1;
+        width: 100%;
+        height: 100%;
+        background-color: #4d4d4d;
+      }
+    }
+  }
+}
